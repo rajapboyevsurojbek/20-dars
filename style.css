@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+.ad {
+  width: 100%;
+  height: 47px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #b36050;
+  color: #f1d3b9;
+}
+
+.nav {
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__profile {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  padding: 16px 52px;
+  font-size: 18px;
+  width: 500px;
+}
+
+.nav__list__item > a {
+  text-decoration: none;
+  color: #b4604d;
+}
+
+.nav__profile {
+  justify-content: flex-end;
+}
+
+.nav {
+  background-color: #f6f4ec;
+}
+
+.hero {
+  width: 100%;
+  height: 435px;
+  background-image: url(./images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.shop-now {
+  background-color: #a9ae8d;
+}
+
+.shop-now__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.shop-now__question {
+  font-weight: 400;
+  font-size: 18px;
+  color: #f6f4ec;
+  text-align: center;
+  display: block;
+  padding: 69px 0 0 0;
+}
+
+.shop-now__title {
+  font-weight: 400;
+  font-size: 33px;
+  color: #f6f4ec;
+  text-align: center;
+  padding: 15px 0 28px 0;
+}
+
+.shop-now__btn {
+  background-color: #b45f4d;
+  font-weight: 400;
+  font-size: 17px;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.shop-now__btn__div {
+  display: inline-block;
+}
+
+.bottle {
+  background: #f6f4ec;
+}
+
+.bottle__wrapper {
+  display: flex;
+  gap: 94px;
+}
+
+.bottle__title {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 23px;
+  background: #f6f4ec;
+  color: #b45f4d;
+}
+
+.bottle__deo {
+  width: 340px;
+  padding: 64px 0;
+}
+
+.bottle__product {
+  font-weight: 400;
+  font-size: 18px;
+  color: #b45f4d;
+  margin: 35px 0 0 0;
+}
+
+.bottle__money {
+  font-weight: 400;
+  color: #b45f4d;
+  display: block;
+  margin-top: 20px;
+}
+
+.shop-sets__buy {
+  position: relative;
+  top: 70%;
+}
+
+.shop-sets__buy__title {
+  color: #f6f4ec;
+}
+
+.shop-sets__buy__link {
+  text-decoration: none;
+  color: #f6f4ec;
+}
+
+.shop-sets__frame {
+  background-image: url(./images/image\ 3.png);
+  height: 407px;
+  width: 1200px;
+  margin-bottom: 50px;
+}
+
+.shop-sets__frame {
+}
+
+.shop-sets__buy {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background: #df9b7a;
+}
+
+.wrapper {
+  background-color: #f1d3b9;
+}
+
+.contenair {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.information {
+  background-color: #f1d3b9;
+  padding-bottom: 67px;
+}
+.information__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information__img img {
+  width: 500px;
+  height: 750px;
+  margin-top: 200px;
+  margin-left: 10px;
+}
+
+.information__title {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.information__document {
+  width: 500px;
+  height: 750px;
+  margin-top: 200px;
+  background-color: #fff;
+  padding: 90px 42px 10px 42px;
+  color: #b45f4d;
+}
+
+.information__read span {
+  display: block;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.wrapper {
+  margin-top: 26px;
+  background: #ffffff;
+}
+
+.wrapper__title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+footer {
+  background: #f6f4ec;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contact-us {
+  padding: 60px 50px 19px 50px;
+  color: #b45f4d;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer__text {
+  padding: 60px 50px 19px 50px;
+  color: #b45f4d;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer__input {
+  padding: 60px 50px 19px 50px;
+  color: #b45f4d;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+
+.border__hr {
+  color: #F1D3B9;
+}
+
+
+
+.data {
+  text-align: center;
+  padding: 10px 0;
+  color: #C17C6C;
+}
